@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>enhanced form</title>
+</head>
+<body>
+
+<header>
+  <h1>Week 2 Assignment</h1>
+  <nav>
+    <ul>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#table">Table</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#form">Form</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="lists">
+    <h2>Lists</h2>
+    <h3>Unordered</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered</h3>
+    <ol>
+      <li>Wake up</li>
+      <li>Eat</li>
+      <li>Code</li>
+    </ol>
+  </section>
+
+  <section id="table">
+    <h2>Table</h2>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Victory</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>22</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <img src="bangchan.jpg" alt="Bang Chan from Stray Kids" width="300">
+    <video width="300" controls>
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section id="form">
+    <h2>Form</h2>
+    <form>
+      <p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </p>
+      <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </p>
+      <p>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="6">
+      </p>
+      <p>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="100">
+      </p>
+      <p>
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+          <option value="">Choose...</option>
+          <option value="ug">Uganda</option>
+          <option value="ke">Kenya</option>
+        </select>
+      </p>
+      <p>
+        <input type="checkbox" id="agree" required>
+        <label for="agree">I agree</label>
+      </p>
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Victory</p>
+</footer>
+
+</body>
+</html>
